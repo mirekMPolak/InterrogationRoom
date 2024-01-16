@@ -14,14 +14,12 @@ namespace InterrogationRoom
             try
             {
                 DateTime dateOfToday = DateTime.Now;
-                // var currentYear = int.Parse(dateOfToday.Year.ToString()); niepotrzebna podwójna konwersja
                 var currentYear = dateOfToday.Year;
                 var firstYear = 1;
                 var minNumberMonthsInYear = 1;
                 var maxNumberMonthsInYear = 12;
                 var minNumberDaysInMonth = 1;
                 var maxNumberDaysInMonth = 31;
-
 
                 Console.WriteLine("Proszę podać swoje dane osobiste:\nImię:");
                 var name = CheckString();
